@@ -1,0 +1,10 @@
+run = "python run_api.py --host 0.0.0.0 --port 8080"
+entrypoint = "run_api.py"
+modules = ["python-3.11:v26-20230607-81af3c6"]
+
+[nix]
+channel = "stable-23_11"
+
+[deployment]
+run = ["python3", "run_api.py", "--host", "0.0.0.0", "--port", "8080"]
+deploymentTarget = "cloudrun"
