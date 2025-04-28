@@ -47,7 +47,7 @@ MemoTag/
 ### Step 1: Clone the Repository
 ```bash
 # Clone the repository from GitHub
-git clone https://github.com/YOUR_USERNAME/MemoTag.git
+git clone https://github.com/none34829/MemoTag.git
 
 # Navigate to the project directory
 cd MemoTag
